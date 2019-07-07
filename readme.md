@@ -1,3 +1,9 @@
+# How to run
+  * git clone {{RepoURL}}
+  * npm install
+  * node index.js
+
+
 <p align="center">
   <a href="https://nodejs.org/">
     <img
