@@ -1,0 +1,26 @@
+{
+  "name": "scraping-bm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bankmandiri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://radiliadi@gitlab.com/radiliadi/scraping-bm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/radiliadi/scraping-bm/issues"
+  },
+  "homepage": "https://gitlab.com/radiliadi/scraping-bm#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^1.18.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
