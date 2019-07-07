@@ -106,6 +106,7 @@ async function main() {
         // const promoByCategory = await scrapePromoByCategory('https://www.bankmega.com/ajax.promolainnya.php?product=0&subcat=1')
         promoCategories[index].promo = await scrapePromoByCategory(item.catUrl)
         console.log(promoCategories)
+        saveDataToJson(promoCategories, 'promoCategories')
         // finalResult.push(promoByCategory)
     })
 
